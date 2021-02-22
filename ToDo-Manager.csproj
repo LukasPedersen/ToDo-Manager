@@ -10,4 +10,14 @@
     <PackageReference Include="Microsoft.AspNetCore.Mvc.Razor.RuntimeCompilation" Version="3.1.10" />
   </ItemGroup>
 
+  <ItemGroup>
+    <Folder Include="css\" />
+    <Folder Include="Data\" />
+    <Folder Include="Model\" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <None Include="wwwroot\Images\9a641bb8-7b25-40f1-b8ca-95aba6689f39.jpg" />
+  </ItemGroup>
+
 </Project>

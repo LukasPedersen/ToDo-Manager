@@ -10,16 +10,19 @@ namespace ToDo_Manager.Pages
 {
     public class IndexModel : PageModel
     {
-        private readonly ILogger<IndexModel> _logger;
+        public List<string> s { get; set; }
 
-        public IndexModel(ILogger<IndexModel> logger)
+        public IndexModel()
         {
-            _logger = logger;
+            this.s = new List<string>();
+            s.Add("Hello");
+            s.Add("Hello");
+            s.Add("Hello");
         }
 
         public void OnGet()
         {
-
+            
         }
     }
 }
